@@ -1,9 +1,4 @@
-//your code here
 let images = document.querySelectorAll(".image")
-let count = 1;
-images.forEach((image) => {
-	image.id = "div"+ count++
-})
 
 images.forEach((image) => {
     image.addEventListener("dragstart", (event) => {
